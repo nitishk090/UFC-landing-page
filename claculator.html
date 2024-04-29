@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        body{
+            background-color: tan;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <input type="text" id="value1" placeholder="Enter first number">
+    <select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    </select>
+    <input type="text" id="value2" placeholder="Enter second number">
+    <button onclick="calculate()">Calculate</button>
+    <input type="text" id="result" placeholder="Result" disabled>
+
+    <script lang="javascript">
+        function calculate() {
+    var value1 = parseFloat(document.getElementById("value1").value);
+    var value2 = parseFloat(document.getElementById("value2").value);
+    var operator = document.getElementById("operator").value;
+    var result;
+
+    switch (operator) {
+        case '+':
+        result = value1 + value2;
+            break;
+        case '-':
+            result = value1 - value2;
+            break;
+        case '*':
+          result = value1 * value2;
+            break;
+        case '/':
+            if (value2 == 0) {
+            alert("Cannot divide by zero");
+            return;
+            }
+        result = value1 / value2;
+        break;
+        }
+
+    document.getElementById("result").value = result;
+}
+
+    </script>
+</body>
+</html>
