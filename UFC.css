@@ -1,0 +1,410 @@
+/*
+@media screen and (max-width: 380px){
+    header {
+        max-height: 50px;
+        max-width: 380px;
+    }
+
+    header img {
+        max-width: 100px;
+        max-height: 30px;
+        margin-right: 10px;
+    }
+    
+}
+*/
+
+
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6f6f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+
+header {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+header nav{
+    width: 650px;
+}
+
+header nav ul {
+    display: flex;
+    padding-right: 10px;
+    
+}
+
+header img {
+    height: 60px;
+    width: 150px;
+    padding-right: 100px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    display: inline-block;
+    padding-right: 30px;
+}
+
+
+body table  {
+    background-color: #cda933;
+    color: #f6f6f6;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px  solid black;
+    }
+
+table th {
+    color: #0b0b0b;
+
+}
+
+.fighter .f1:hover {
+    transform: translate(0, -20px);
+    background-color: #cda933;
+}
+
+.fighter .f2:hover {
+    transform: translate(0, -20px);
+    background-color: #cda933;
+}
+.fighter .f3:hover {
+    transform: translate(0, -20px);
+    background-color: #cda933;
+}
+.fighter .f4:hover {
+    transform: translate(0, -20px);
+    background-color: #cda933;
+}
+.fighter .f5:hover {
+    transform: translate(0, -20px);
+    background-color: #cda933;
+}
+
+header a:hover {
+    color: #cda933;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body .cd {
+    background-color: #0b0b0b;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 0px;
+    width: 450px;
+}
+
+body .fd {
+    font-size: large;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+
+.ED {
+    height: 5%;
+    width: 40%;
+    justify-content: right;
+    align-content: right;
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: #cda933;
+    margin-left: 50px;
+}
+
+.UC {
+    background-image: url(https://ringsideintel.com/cdn-cgi/image/width=788,height=444,fit=crop,quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2024/10/ufc-309-pic.jpg);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 50px;
+    border: 2px solid black;
+    color: black;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 343px;
+    width: 609px;
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 350px;
+
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    margin: 10px;
+    background-color: #0b0b0b;
+    color: #f6f6f6;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section {
+    overflow: hidden;
+}
+
+section img {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 18px;
+}
+
+h2{
+    background-color:black;
+    color: #f6f6f6;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+section p {
+    margin-left: 30px;
+    font-weight: 20px;
+    padding: -20px;
+    color: black;
+}
+
+section .fighter {
+    margin-right: 00px;
+    display: flex;
+    padding-top: 20px;
+}
+
+section .f1, .f2, .f3, .f4, .f5{
+        text-decoration: none;
+        color: #0b0b0b;
+        align-items: center;
+        justify-content: left;
+        border-radius: 20px;
+        padding-right: 30px;
+        padding-top: 30px;
+        height: 350px;
+        width: 325px;
+        margin-left: 20px;
+}
+
+.events .event iframe {
+    border-radius: 10px;
+    width: 450px;
+}
+
+.events p {
+    margin-left: 30px;
+    font-weight: 20px;
+    padding: -20px;
+}
+
+.ec{
+    max-width: 600px;
+}
+
+.list {
+    padding-bottom: 200px;
+}
+
+.main {
+    float: right;
+    margin-top: -220px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.main iframe{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.events .event {
+    margin-right: 200px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.event .e1, .e2, .e3, .e4{
+        text-decoration: none;
+        color: #0b0b0b;
+        padding-left: 20px;
+
+}
+
+.weightclass .men{
+    height: 500px;
+}
+
+.weightclass .women{
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+
+.news {
+    display: flex;
+    margin-top: 40px;
+}
+
+.nc {
+    height: 350px;
+    width: 450px;
+    margin-left: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #aaa9a6;
+}
+
+h3 {
+    margin: 20px;
+    
+    padding-top: -10px;
+    color: #0b0b0b;
+    
+    border-radius: 5px;
+}
+
+.news img{
+    width: 410px;
+    height: 230px;
+    
+}
+
+
+footer {
+    background-color: #0b0b0b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ed1c24;
+}
+
+
+.dropbtn {
+    background-color: #b89626;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position:  absolute;
+    background-color: #cda933;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 400px;
+    overflow: scroll;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.dropdown-content iframe {
+    padding: 20px;
+    width: 450px;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #cda933;}
+
+
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat;
+    width: 93%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 3px solid black; 
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#myTable {
+    border-collapse: collapse; 
+    width: 98%; 
+    border: 1px solid black; 
+    font-size: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#myTable th, #myTable td {
+    text-align: left; 
+    padding: 12px; 
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+    background-color: #e1c66d;
+}
+
+
+
